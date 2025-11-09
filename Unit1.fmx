@@ -1,0 +1,120 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 662
+  ClientWidth = 979
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 128.00000000000000000
+    Position.Y = 104.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnClick = ButtonClick
+  end
+  object Label1: TLabel
+    Position.X = 128.00000000000000000
+    Position.Y = 64.00000000000000000
+    Text = 'Its your turn  Player :'
+    TabOrder = 1
+  end
+  object currentPlayerSymbolLabel: TLabel
+    Position.X = 240.00000000000000000
+    Position.Y = 64.00000000000000000
+    Size.Width = 145.00000000000000000
+    Size.Height = 17.00000000000000000
+    Size.PlatformDefault = False
+    Text = 'currentPlayerSymbolLabel'
+    TabOrder = 2
+  end
+  object winnerLabel: TLabel
+    Position.X = 128.00000000000000000
+    Position.Y = 368.00000000000000000
+    Text = 'winnerLabel'
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Position.X = 216.00000000000000000
+    Position.Y = 104.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    OnClick = ButtonClick
+  end
+  object Button3: TButton
+    Position.X = 304.00000000000000000
+    Position.Y = 104.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    OnClick = ButtonClick
+  end
+  object Button4: TButton
+    Position.X = 128.00000000000000000
+    Position.Y = 181.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    OnClick = ButtonClick
+  end
+  object Button5: TButton
+    Position.X = 216.00000000000000000
+    Position.Y = 181.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    OnClick = ButtonClick
+  end
+  object Button6: TButton
+    Position.X = 304.00000000000000000
+    Position.Y = 177.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    OnClick = ButtonClick
+  end
+  object Button7: TButton
+    Position.X = 128.00000000000000000
+    Position.Y = 264.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    OnClick = ButtonClick
+  end
+  object Button9: TButton
+    Position.X = 304.00000000000000000
+    Position.Y = 264.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    OnClick = ButtonClick
+  end
+  object Button8: TButton
+    Position.X = 216.00000000000000000
+    Position.Y = 264.00000000000000000
+    Size.Width = 65.00000000000000000
+    Size.Height = 65.00000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    OnClick = ButtonClick
+  end
+  object reset: TButton
+    Position.X = 264.00000000000000000
+    Position.Y = 368.00000000000000000
+    TabOrder = 12
+    Text = 'reset'
+    OnClick = resetClick
+  end
+end
